@@ -1,4 +1,4 @@
 # Simple-Web-Project-IMK
-##SportifyNews
+SportifyNews
 
-Simple website for sports news and there is a merchandise shop.
+<br>Simple website for sports news and there is a merchandise shop.
