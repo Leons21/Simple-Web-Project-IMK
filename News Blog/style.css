@@ -1,0 +1,580 @@
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+.news-blog {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.news-blog .overlap-wrapper {
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+  width: 1920px;
+  height: 4194px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.news-blog .overlap {
+  position: relative;
+  width: 1932px;
+  height: 4135px;
+}
+
+.news-blog .rectangle {
+  position: absolute;
+  width: 1870px;
+  height: 3150px;
+  top: 92px;
+  left: 22px;
+  background-color: var(--bg-color);
+  border-radius: 5px;
+  box-shadow: 0px 6px 13px var(--fonts), 0px 23px 23px var(--fonts),
+    0px 52px 31px var(--fonts), 0px 1px 37px var(--fonts),
+    0px 144px 40px transparent;
+}
+
+.news-blog .image {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.news-blog .group {
+  position: absolute;
+  width: 246px;
+  height: 54px;
+  top: 313px;
+  left: 109px;
+}
+
+.news-blog .frame {
+  align-items: center;
+  gap: 10px;
+  top: 0;
+  display: inline-flex;
+  position: absolute;
+  left: 0;
+}
+
+.news-blog .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.news-blog .nov-p {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #8591a3;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.news-blog .div {
+  align-items: center;
+  gap: 10px;
+  top: 30px;
+  display: inline-flex;
+  position: absolute;
+  left: 0;
+}
+
+.news-blog .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-weight: 500;
+  color: #8591a3;
+  font-size: 14px;
+  line-height: 14px;
+  white-space: nowrap;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+}
+
+.news-blog .cardinals-QB-kyler {
+  position: absolute;
+  width: 1236px;
+  top: 210px;
+  left: 108px;
+  font-family: var(--category-font-family);
+  font-weight: var(--category-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--category-font-size);
+  letter-spacing: var(--category-letter-spacing);
+  line-height: var(--category-line-height);
+  font-style: var(--category-font-style);
+}
+
+.news-blog .rectangle-2 {
+  position: absolute;
+  width: 1236px;
+  height: 622px;
+  top: 432px;
+  left: 108px;
+  object-fit: cover;
+}
+
+.news-blog .overlap-group-wrapper {
+  position: absolute;
+  width: 373px;
+  height: 608px;
+  top: 446px;
+  left: 1408px;
+}
+
+.news-blog .overlap-group {
+  position: relative;
+  height: 608px;
+}
+
+.news-blog .group-2 {
+  position: absolute;
+  width: 373px;
+  height: 608px;
+  top: 0;
+  left: 0;
+}
+
+.news-blog .group-3 {
+  position: absolute;
+  width: 375px;
+  height: 40px;
+  top: 0;
+  left: 0;
+}
+
+.news-blog .text-wrapper-2 {
+  position: absolute;
+  height: 30px;
+  top: 0;
+  left: 0;
+  font-family: var(--title-font-family);
+  font-weight: var(--title-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--title-font-size);
+  letter-spacing: var(--title-letter-spacing);
+  line-height: var(--title-line-height);
+  white-space: nowrap;
+  font-style: var(--title-font-style);
+}
+
+.news-blog .line {
+  top: 40px;
+  position: absolute;
+  width: 373px;
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.news-blog .line-2 {
+  top: 608px;
+  position: absolute;
+  width: 373px;
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.news-blog .frame-2 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  padding: 22px 0px;
+  top: 46px;
+  display: inline-flex;
+  position: absolute;
+  left: 0;
+}
+
+.news-blog .group-4 {
+  position: relative;
+  width: 371px;
+  height: 83px;
+  margin-right: -4px;
+}
+
+.news-blog .p {
+  position: absolute;
+  width: 367px;
+  height: 34px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: var(--fonts-nigga);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.news-blog .text-wrapper-3 {
+  position: absolute;
+  width: 357px;
+  height: 45px;
+  top: 38px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #79808a;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.news-blog .social {
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+  position: absolute;
+  top: 3050px;
+  left: 800px;
+}
+
+.news-blog .group-wrapper {
+  position: relative;
+  width: 59px;
+  height: 59px;
+  background-color: #ff5700;
+  border-radius: 29.5px;
+}
+
+.news-blog .group-5 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 6px;
+  left: 6px;
+}
+
+.news-blog .img-wrapper {
+  position: relative;
+  width: 59px;
+  height: 59px;
+  background-color: #a70082;
+  border-radius: 29.5px;
+}
+
+.news-blog .group-6 {
+  position: relative;
+  width: 59px;
+  height: 59px;
+  background-color: #1877f2;
+  border-radius: 29.5px;
+}
+
+.news-blog .group-7 {
+  position: relative;
+  width: 59px;
+  height: 59px;
+  background-color: #25d366;
+  border-radius: 29.5px;
+}
+
+.news-blog .kyler-murray-will {
+  position: absolute;
+  width: 1236px;
+  height: 2747px;
+  top: 1103px;
+  left: 108px;
+  font-weight: 400;
+  color: var(--fonts-nigga);
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+}
+
+.news-blog .text-wrapper-4 {
+  position: absolute;
+  width: 72px;
+  height: 23px;
+  top: 3000px;
+  left: 923px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: var(--fonts-nigga);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.news-blog .navbar-wrapper {
+  position: fixed;
+  width: 1932px;
+  height: 75px;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.news-blog .navbar {
+  position: relative;
+  width: 1920px;
+  height: 75px;
+  background-color: var(--main-color);
+}
+
+.news-blog .brand {
+  position: absolute;
+  width: 199px;
+  height: 75px;
+  top: 0;
+  left: 24px;
+}
+
+.news-blog .LOGO {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.news-blog .text-wrapper-5 {
+  position: absolute;
+  top: 28px;
+  left: 90px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.news-blog .text-wrapper-6 {
+  left: 892px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.news-blog .text-wrapper-7 {
+  left: 1035px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.news-blog .text-wrapper-8 {
+  left: 1640px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.news-blog .text-wrapper-9 {
+  left: 1740px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.news-blog .text-wrapper-10 {
+  left: 747px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.news-blog .text-wrapper-11 {
+  left: 561px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.news-blog .search-bar {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 17px;
+  left: 1570px;
+}
+
+.dark-mode {
+  --bg-color: #101010;
+  --modal: #454545;
+  --main-color: #252525;
+  --second: #454545;
+  --third: #656565;
+  --adds: #bababa;
+  /* --fonts: #e9e9e9;
+  --fonts-nigga: #252525; */
+  --fonts: #252525;
+  --fonts-nigga: #e9e9e9;
+}
+
+.dark-mode-wrapper {
+  position: absolute;
+  top: 20px;
+  left: 1840px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: var(--fonts);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+.fa-moon {
+  color: #717171;
+}
+.fa-sun {
+  color: #f39c12;
+}
+.checkbox-label {
+  background-color: rgba(227, 227, 227, 1);
+  width: 55px;
+  height: 32px;
+  border-radius: 50px;
+  position: relative;
+  padding: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkbox-label .ball {
+  background: var(--main-color);
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 7px;
+  top: 4.5px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(20px);
+}
+
+.modal-title {
+  margin-left: 150px;
+  color: var(--fonts-nigga);
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-reguler-letter-spacing);
+  font-family: var(--category-font-family);
+}
+
+.modal-body {
+  margin-left: 5px;
+}
+
+.new-acc {
+  text-decoration: none;
+  position: relative;
+  color: var(--fonts-nigga);
+  /* top: 15px; */
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.new-acc:hover {
+  color: navy;
+}
+
+.btn {
+  background-color: var(--third);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 450px;
+}
+
+.btn:hover {
+  background-color: var(--second);
+  color: var(--fonts);
+}
+
+.subtitle-text {
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--subtitle-font-style);
+}
+
+.content-text {
+  font-family: var(--sub-content-font-family);
+  font-weight: var(--sub-content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}

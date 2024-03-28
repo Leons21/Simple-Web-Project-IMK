@@ -1,0 +1,749 @@
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+.produk {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.produk .div {
+  background-color: var(--bg-color);
+  overflow: hidden;
+  width: 1920px;
+  height: 1024px;
+  position: relative;
+}
+
+.produk .LOGO {
+  width: 167px;
+  height: 167px;
+  top: 802px;
+  left: -4892px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.produk .image-removebg {
+  position: absolute;
+  width: 666px;
+  height: 666px;
+  top: 184px;
+  left: 286px;
+  object-fit: cover;
+  filter: drop-shadow(2px 2px 1px var(--fonts-nigga));
+}
+
+.produk .men-s-denver-nuggets {
+  position: absolute;
+  width: 530px;
+  top: 225px;
+  left: 1104px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.produk .text-wrapper {
+  position: absolute;
+  top: 279px;
+  left: 1104px;
+  font-family: var(--subtitle-font-family);
+  font-weight: var(--subtitle-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--subtitle-font-style);
+}
+
+.produk .overlap {
+  width: 393px;
+  height: 166px;
+  top: 322px;
+  left: 1104px;
+  background-color: var(--adds);
+  position: absolute;
+  border-radius: 2px;
+}
+
+.produk .text-wrapper-2 {
+  position: absolute;
+  top: 109px;
+  left: 13px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #000000;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  white-space: nowrap;
+  font-style: var(--content-font-style);
+}
+
+.produk .text-wrapper-3 {
+  top: 8px;
+  left: 13px;
+  font-weight: var(--content-font-weight);
+  color: #000000;
+  font-size: var(--content-font-size);
+  line-height: var(--content-line-height);
+  position: absolute;
+  font-family: var(--content-font-family);
+  letter-spacing: var(--content-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--content-font-style);
+}
+
+.produk .text-wrapper-4 {
+  top: 5px;
+  left: 290px;
+  font-weight: var(--sub-subtitle-font-weight);
+  color: #000000;
+  font-size: var(--sub-subtitle-font-size);
+  line-height: var(--sub-subtitle-line-height);
+  position: absolute;
+  font-family: var(--sub-subtitle-font-family);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.produk .overlap-group {
+  width: 24px;
+  height: 24px;
+  top: 38px;
+  left: 13px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.produk .text-wrapper-5 {
+  top: 2px;
+  left: 6px;
+  font-size: var(--sub-subtitle-reguler-font-size);
+  line-height: var(--sub-subtitle-reguler-line-height);
+  position: absolute;
+  font-family: var(--sub-subtitle-reguler-font-family);
+  font-weight: var(--sub-subtitle-reguler-font-weight);
+  color: #000000;
+  letter-spacing: var(--sub-subtitle-reguler-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-reguler-font-style);
+}
+
+.produk .div-wrapper {
+  width: 24px;
+  height: 24px;
+  top: 38px;
+  left: 50px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.produk .overlap-2 {
+  width: 24px;
+  height: 24px;
+  top: 38px;
+  left: 87px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.produk .overlap-2:hover,
+.produk .overlap-group:hover,
+.produk .div-wrapper:hover,
+.produk .overlap-2:hover,
+.produk .overlap-3:hover,
+.produk .overlap-4:hover,
+.produk .overlap-5:hover,
+.produk .overlap-6:hover,
+.produk .overlap-7:hover,
+.produk .overlap-8:hover {
+  background-color: var(--secondary);
+  cursor: pointer;
+}
+
+.produk .overlap-3 {
+  width: 24px;
+  height: 24px;
+  top: 38px;
+  left: 124px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.produk .text-wrapper-6 {
+  top: 2px;
+  left: 2px;
+  font-size: var(--sub-subtitle-reguler-font-size);
+  line-height: var(--sub-subtitle-reguler-line-height);
+  position: absolute;
+  font-family: var(--sub-subtitle-reguler-font-family);
+  font-weight: var(--sub-subtitle-reguler-font-weight);
+  color: #000000;
+  letter-spacing: var(--sub-subtitle-reguler-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-reguler-font-style);
+}
+
+.produk .overlap-4 {
+  width: 24px;
+  height: 24px;
+  top: 38px;
+  left: 162px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.produk .text-wrapper-7 {
+  top: 2px;
+  left: 3px;
+  font-size: var(--sub-subtitle-reguler-font-size);
+  line-height: var(--sub-subtitle-reguler-line-height);
+  position: absolute;
+  font-family: var(--sub-subtitle-reguler-font-family);
+  font-weight: var(--sub-subtitle-reguler-font-weight);
+  color: #000000;
+  letter-spacing: var(--sub-subtitle-reguler-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-reguler-font-style);
+}
+
+.produk .overlap-5 {
+  width: 24px;
+  height: 24px;
+  top: 38px;
+  left: 198px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.produk .overlap-6 {
+  width: 24px;
+  height: 24px;
+  top: 38px;
+  left: 235px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.produk .overlap-7 {
+  width: 61px;
+  height: 24px;
+  top: 70px;
+  left: 13px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.produk .text-wrapper-8 {
+  left: 9px;
+  position: absolute;
+  top: 2px;
+  font-family: var(--sub-subtitle-reguler-font-family);
+  font-weight: var(--sub-subtitle-reguler-font-weight);
+  color: #000000;
+  font-size: var(--sub-subtitle-reguler-font-size);
+  letter-spacing: var(--sub-subtitle-reguler-letter-spacing);
+  line-height: var(--sub-subtitle-reguler-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-reguler-font-style);
+}
+
+.produk .overlap-8 {
+  width: 61px;
+  height: 24px;
+  top: 70px;
+  left: 87px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.produk .text-wrapper-9 {
+  left: 10px;
+  position: absolute;
+  top: 2px;
+  font-family: var(--sub-subtitle-reguler-font-family);
+  font-weight: var(--sub-subtitle-reguler-font-weight);
+  color: #000000;
+  font-size: var(--sub-subtitle-reguler-font-size);
+  letter-spacing: var(--sub-subtitle-reguler-letter-spacing);
+  line-height: var(--sub-subtitle-reguler-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-reguler-font-style);
+}
+
+.produk .overlap-9 {
+  width: 61px;
+  height: 24px;
+  top: 126px;
+  left: 13px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #00000099;
+  position: relative;
+  border-radius: 2px;
+}
+
+.produk .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #00000099;
+  border-radius: 2px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.produk .dropdown-content li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.produk .dropdown-content li:hover {
+  background-color: #f1f1f1;
+}
+
+.produk .overlap-9:hover .dropdown-content {
+  display: block;
+}
+
+.produk .text-wrapper-10 {
+  top: 4px;
+  left: 5px;
+  font-size: var(--content-font-size);
+  line-height: var(--content-line-height);
+  position: absolute;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #000000;
+  letter-spacing: var(--content-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--content-font-style);
+}
+
+.produk .arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 3px;
+  left: 40px;
+}
+
+.produk .overlap-10 {
+  width: 171px;
+  height: 24px;
+  top: 126px;
+  left: 88px;
+  background-color: var(--main-color);
+  position: absolute;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.produk .text-wrapper-11 {
+  position: absolute;
+  top: 5px;
+  left: 48px;
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: #ffffff;
+  font-size: var(--content-font-size);
+  letter-spacing: var(--content-letter-spacing);
+  line-height: var(--content-line-height);
+  white-space: nowrap;
+  font-style: var(--content-font-style);
+}
+
+.produk .text-wrapper-11 {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.produk .overlap-10:hover {
+  background-color: var(--second);
+  border-color: var(--second);
+}
+
+.produk .overlap-10:hover .text-wrapper-11 {
+  color: #ffffff;
+}
+
+.produk .line {
+  top: 495px;
+  position: absolute;
+  width: 393px;
+  height: 1px;
+  left: 1104px;
+  object-fit: cover;
+  filter: drop-shadow(1px 1px 0px var(--fonts-nigga));
+}
+
+.produk .img {
+  top: 541px;
+  position: absolute;
+  width: 393px;
+  height: 1px;
+  left: 1104px;
+  object-fit: cover;
+  filter: drop-shadow(1px 1px 0px var(--fonts-nigga));
+}
+
+.produk .text-wrapper-12 {
+  position: absolute;
+  top: 510px;
+  left: 1104px;
+  font-family: var(--sub-subtitle-reguler-font-family);
+  font-weight: var(--sub-subtitle-reguler-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--sub-subtitle-reguler-font-size);
+  letter-spacing: var(--sub-subtitle-reguler-letter-spacing);
+  line-height: var(--sub-subtitle-reguler-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-reguler-font-style);
+}
+
+.produk .text-wrapper-13 {
+  position: absolute;
+  top: 556px;
+  left: 1104px;
+  font-family: var(--sub-subtitle-reguler-font-family);
+  font-weight: var(--sub-subtitle-reguler-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--sub-subtitle-reguler-font-size);
+  letter-spacing: var(--sub-subtitle-reguler-letter-spacing);
+  line-height: var(--sub-subtitle-reguler-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-reguler-font-style);
+}
+
+.produk .vector {
+  top: 514px;
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  left: 1484px;
+  filter: drop-shadow(1px 1px 0px var(--fonts-nigga));
+}
+
+.produk .vector-2 {
+  top: 560px;
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  left: 1484px;
+  filter: drop-shadow(1px 1px 0px var(--fonts-nigga));
+}
+
+.produk .group {
+  position: fixed;
+  width: 1932px;
+  height: 75px;
+  top: 0;
+  left: 0;
+}
+
+.produk .navbar {
+  position: relative;
+  width: 1920px;
+  height: 75px;
+  background-color: var(--main-color);
+}
+
+.produk .brand {
+  position: absolute;
+  width: 199px;
+  height: 75px;
+  top: 0;
+  left: 24px;
+}
+
+.produk .LOGO-2 {
+  width: 75px;
+  height: 75px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.produk .text-wrapper-14 {
+  position: absolute;
+  top: 28px;
+  left: 90px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.produk .text-wrapper-15 {
+  left: 892px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.produk .text-wrapper-16 {
+  left: 1035px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.produk .text-wrapper-17 {
+  left: 1640px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.produk .text-wrapper-18 {
+  left: 1740px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.produk .text-wrapper-19 {
+  left: 747px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.produk .text-wrapper-20 {
+  left: 561px;
+  position: absolute;
+  top: 29px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: rgba(227, 227, 227, 1);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.produk .search-bar {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 17px;
+  left: 1570px;
+}
+
+.menu {
+  color: var(--fonts);
+  transition-duration: 0.2s;
+}
+
+.menu:hover {
+  color: #a6a6a6;
+}
+
+.dark-mode {
+  --bg-color: #101010;
+  --modal: #454545;
+  --main-color: #252525;
+  --second: #454545;
+  --third: #656565;
+  --adds: #bababa;
+  /* --fonts: #e9e9e9;
+  --fonts-nigga: #252525; */
+  --fonts: #252525;
+  --fonts-nigga: #e9e9e9;
+}
+
+.dark-mode-wrapper {
+  position: absolute;
+  top: 20px;
+  left: 1840px;
+  font-family: var(--sub-subtitle-font-family);
+  font-weight: var(--sub-subtitle-font-weight);
+  color: var(--fonts);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--sub-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+.fa-moon {
+  color: #717171;
+}
+.fa-sun {
+  color: #f39c12;
+}
+.checkbox-label {
+  background-color: rgba(227, 227, 227, 1);
+  width: 55px;
+  height: 32px;
+  border-radius: 50px;
+  position: relative;
+  padding: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkbox-label .ball {
+  background: var(--main-color);
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 7px;
+  top: 4.5px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(20px);
+}
+
+.modal-title {
+  margin-left: 150px;
+  color: var(--fonts-nigga);
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-reguler-letter-spacing);
+  font-family: var(--category-font-family);
+}
+
+.modal-body {
+  margin-left: 5px;
+}
+
+.new-acc {
+  text-decoration: none;
+  position: relative;
+  color: var(--fonts-nigga);
+  /* top: 15px; */
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}
+
+.new-acc:hover {
+  color: navy;
+}
+
+.btn {
+  background-color: var(--third);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 450px;
+}
+
+.btn:hover {
+  background-color: var(--second);
+  color: var(--fonts);
+}
+
+.subtitle-text {
+  font-family: var(--content-font-family);
+  font-weight: var(--content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--subtitle-font-style);
+}
+
+.content-text {
+  font-family: var(--sub-content-font-family);
+  font-weight: var(--sub-content-font-weight);
+  color: var(--fonts-nigga);
+  font-size: var(--sub-subtitle-font-size);
+  letter-spacing: var(--sub-subtitle-letter-spacing);
+  line-height: var(--content-font-weight-subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-subtitle-font-style);
+}

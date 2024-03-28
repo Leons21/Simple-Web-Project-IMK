@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="div">
+        <div class="frame">
+          <div class="div-2">
+            <img class="image" src="img/image-1-8.png" />
+            <div class="text-wrapper">Soccer</div>
+          </div>
+          <div class="div-2">
+            <img class="image" src="img/image-1-10.png" />
+            <div class="text-wrapper">Baseball</div>
+          </div>
+          <div class="div-2">
+            <img class="image" src="img/image-1-12.png" />
+            <div class="text-wrapper">Basketball</div>
+          </div>
+        </div>
+        <div class="text-wrapper-2">Gallery</div>
+        <div class="frame-2">
+          <div class="div-2">
+            <img class="image" src="img/image-1-14.png" />
+            <div class="text-wrapper">Badminton</div>
+          </div>
+          <div class="div-2">
+            <img class="image" src="img/image-1-16.png" />
+            <div class="text-wrapper">Rugby</div>
+          </div>
+          <div class="div-2">
+            <img class="image" src="img/image-1.png" />
+            <div class="text-wrapper">Volleyball</div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="navbar">
+            <div class="brand">
+              <a href="../Homepage/index.html">
+                <img class="LOGO" src="img/logo.png" />
+                <div class="text-wrapper-3">SportifyNews</div>
+              </a>
+            </div>
+            <a href="../Store/index.html" class="menu text-wrapper-4">Store</a>
+            <a href="../Galerry/index.html" class="menu text-wrapper-5"
+              >Gallery</a
+            >
+
+            <div
+              class="menu text-wrapper-6"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#signin"
+            >
+              Sign In
+            </div>
+
+            <div
+              class="modal fade"
+              id="signin"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div
+                  class="modal-content"
+                  style="background-color: var(--modal)"
+                >
+                  <div class="modal-header">
+                    <h1 class="modal-title" id="staticBackdropLabel">
+                      <b>Account Sign In</b>
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="subtitle-text">
+                      Enter your e-mail and password to access your<br />existing
+                      account
+                    </p>
+                    <form>
+                      <label>
+                        <i
+                          class="fas fa-envelope"
+                          style="color: var(--fonts-nigga)"
+                        >
+                          E-mail</i
+                        >
+                      </label>
+                      <div>
+                        <input type="text" placeholder="E-mail" required />
+                      </div>
+
+                      <label>
+                        <i class="fas fa-key" style="color: var(--fonts-nigga)">
+                          Password</i
+                        >
+                      </label>
+                      <div>
+                        <input
+                          type="password"
+                          placeholder="Password (6-25 Characters)"
+                          required
+                        />
+                      </div>
+
+                      <div>
+                        <a href="#" class="content-text"
+                          >FORGOT YOUR PASSWORD?</a
+                        >
+                      </div>
+                      <div>
+                        <button
+                          class="btn"
+                          type="submit"
+                          style="color: var(--fonts-nigga)"
+                        >
+                          SIGN IN
+                        </button>
+                      </div>
+                      <div>
+                        <p class="content-text">
+                          Don't have an account?<br />
+                          <a
+                            href="#"
+                            class="new-acc"
+                            data-bs-toggle="modal"
+                            data-bs-target="#signup"
+                            >SIGN UP</a
+                          >
+                        </p>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="menu text-wrapper-7"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#signup"
+            >
+              Sign Up
+            </div>
+
+            <div
+              class="modal fade"
+              id="signup"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div
+                  class="modal-content"
+                  style="background-color: var(--modal)"
+                >
+                  <div class="modal-header">
+                    <h1 class="modal-title" id="staticBackdropLabel">
+                      <b>Account Sign Up</b>
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="subtitle-text">
+                      Enter your e-mail and password to create an<br />
+                      account
+                    </p>
+                    <form>
+                      <label>
+                        <i
+                          class="fas fa-envelope"
+                          style="color: var(--fonts-nigga)"
+                        >
+                          E-mail</i
+                        >
+                      </label>
+                      <div>
+                        <input type="text" placeholder="E-mail" required />
+                      </div>
+
+                      <label>
+                        <i class="fas fa-key" style="color: var(--fonts-nigga)">
+                          Password</i
+                        >
+                      </label>
+                      <div>
+                        <input
+                          type="password"
+                          placeholder="Password (6-25 Characters)"
+                          required
+                        />
+                      </div>
+
+                      <div>
+                        <p class="content-text">
+                          By clicking "SIGN UP", you agree to the Term of Use,
+                          Privacy<br />Policy, and agree to receive content and
+                          promotional<br />communications from us.<br />
+                        </p>
+                      </div>
+                      <div>
+                        <button
+                          class="btn"
+                          type="submit"
+                          style="color: var(--fonts-nigga)"
+                        >
+                          SIGN UP
+                        </button>
+                      </div>
+                      <div>
+                        <p class="content-text">
+                          Already have an account?<br />
+                          <a
+                            href="#"
+                            class="new-acc"
+                            data-bs-toggle="modal"
+                            data-bs-target="#signin"
+                            >SIGN IN</a
+                          >
+                        </p>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a href="../News Page/index.html" class="menu text-wrapper-8"
+              >News</a
+            >
+            <a href="../Homepage/index.html" class="menu text-wrapper-9"
+              >Homepage</a
+            >
+            <img class="search-bar" src="img/search-bar.svg" />
+            <div class="dark-mode-wrapper">
+              <input type="checkbox" class="checkbox" id="checkbox" />
+              <label for="checkbox" class="checkbox-label">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <span class="ball"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const checkbox = document.getElementById("checkbox");
+    checkbox.addEventListener("change", () => {
+      document.body.classList.toggle("dark-mode");
+    });
+  </script>
+</html>

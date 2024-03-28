@@ -1,0 +1,34 @@
+:root {
+  --bg-color: rgb(250, 250, 250);
+  --modal: rgb(250, 250, 250);
+  --main-color: rgba(11, 36, 71, 1);
+  --second: rgba(92, 109, 132, 1);
+  --third: rgba(174, 182, 194, 1);
+  --adds: rgba(217, 217, 217, 1);
+  --fonts: rgba(227, 227, 227, 1);
+  --fonts-nigga: rgba(16, 16, 16, 1);
+  --category-font-family: "Inter-ExtraBold", Helvetica;
+  --category-font-weight: 800;
+  --category-font-size: 40px;
+  --category-letter-spacing: 0px;
+  --category-line-height: 100%;
+  --category-font-style: normal;
+  --title-font-family: "Inter-ExtraBold", Helvetica;
+  --title-font-weight: 800;
+  --title-font-size: 30px;
+  --title-letter-spacing: 0px;
+  --title-line-height: 100%;
+  --title-font-style: normal;
+  --sub-subtitle-font-family: "Inter-ExtraBold", Helvetica;
+  --sub-subtitle-font-weight: 800;
+  --sub-subtitle-font-size: 16px;
+  --sub-subtitle-letter-spacing: 0px;
+  --sub-subtitle-line-height: 100%;
+  --sub-subtitle-font-style: normal;
+  --sub-subtitle-reguler-font-family: "Inter-Regular", Helvetica;
+  --sub-subtitle-reguler-font-weight: 400;
+  --sub-subtitle-reguler-font-size: 16px;
+  --sub-subtitle-reguler-letter-spacing: 0px;
+  --sub-subtitle-reguler-line-height: 100%;
+  --sub-subtitle-reguler-font-style: normal;
+}
